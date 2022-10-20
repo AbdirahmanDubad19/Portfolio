@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+        <!--navbar-->     
+        <nav class="navbar">
+            <div class="brand-title">Abdirahman Dubad</div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#ContactMe">Contact Me</a></li>
+    
+                </ul>
+            </div>
+        </nav>
+        <script src="portfolio.js"></script>
+
+        <!--Home-->
+        <section id="Home">
+            <div class="wrapper">
+                <div class="static-txt"></div>
+                <ul class="dynamic-txt">
+                    <li><span>Welcome to my page</span></li>
+                    <li><span>My name is Abdirahman Dubad</span></li>
+                </ul>
+            </div>
+            <a href="./Abdirahman_Dubad_CV.PDF" id="CV" target="blank">CV</a>
+            <a id="git" href="https://github.com/AbdirahmanDubad19?tab=repositories" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a id="linkedin" href="https://www.linkedin.com/in/abdirahman-d-61074b235/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BNvpZRyIYSuC41uqUj6hM6w%3D%3D" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+              
+
+
+        </section>
+
+        <section id="AboutMe" >
+            <div class="container">
+                <h1>About Me</h1><br>
+                  <a>I am a London-based aspiring software developer that has just finished a software development Bootcamp.  The Bootcamp has helped me 
+                    develop my technical skills to create different types of programs, websites, and databases.
+                    I have a strong passion for developing innovative programs, learning new skills, and solving problems. 
+                    Having completed the Bootcamp, I have a clear plan on what needs to be done to further my career, 
+                    the starting point being landing an apprenticeship in Software Development. 
+                    My interest in programming was recently reawakened when I was informed about the Bootcamp, 
+                    due to wanting to learn programming at a younger age after seeing my father work with Javascript.</a>
+                  <br>
+                  <br>
+                  <a>
+                      I believe my strongest skills to be HTML, CSS, JavaScript, Python and MySQL. 
+                      I have experience with Flask and MongoDB, which i hope to learn about more. 
+                      In the future i will also be looking to learn other languages like React, Java and possibly C/C++. 
+                      These will hopefully strengthen my backend skills which is the career pathway i am more inclined to.  
+                  </a>
+
+            </div>   
+        </section>
+        <section id="Skills">
+            <div  class="wrapper-skills" id='svgs'>
+                <div class="top-div">
+                    <h1 class='skills-h1'>My Skills</h1>
+                </div>
+                <div class="content">
+                    <img class ="img-hover img-size" src="images/svgs/css-3.svg">
+                    <h2>CSS</h2>
+                </div>
+                <div class="content">
+                    <img class ="img-hover img-size" src="./images/svgs/HTML5.svg">
+                    <h2>HTML</h2>
+                </div>
+                <div class="content">
+                    <img class ="img-hover img-size" src="./images/svgs/JavaScript.svg">
+                    <h2>JavaScript</h2>
+                </div>
+                <div class="content">
+                    <img class ="img-hover img-size" src="./images/svgs/MongoDB.svg">
+                    <h2>MongoDB</h2>
+                </div>
+                <div class="content">
+                    <img class ="img-hover img-size" src="./images/svgs/MySQL.svg">
+                    <h2>MySQL</h2>
+                </div>
+                <div class="content">
+                    <img class ="img-hover img-size" src="./images/svgs/Python.svg">
+                    <h2>Python</h2>
+                </div> 
+                <div class="content">
+                    <img class="img-hover img-size" src="./images/svgs/flask.svg">
+                    <h2>Flask</h2> 
+            </div><!--end of wrapper div-->
+        </section>
+        <section id="Projects">
+            <div class="top-div">
+                <h1 class="projects-h1">Projects</h1><br>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/Projects/NoteApp.png" class="card__image">
+                    <div class="card__content">
+                        <p>This Project was created using HTML, CSS and JavaScript. It was completed using the help of some youtube videos</p>
+                        <p>This is a project which allows you to write notes. You can save the note by clicking outside the note box and delete it by double clicking the note. Also you can simply write in the note by clicking it once and create a new note by clicking on the plus button.</p>
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <a href="https://github.com/AbdirahmanDubad19/NotesApp" class="card__links">Code</a>
+                        </div>
+                        <div>
+                            <a href="./Progams/NoteApp/index.html" class="card__links">Source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/Projects/SongDB.png" class="card__image">
+                    <div class="card__content">
+                        <p>This project was created using Python and a database imported from MySQL. </p>
+                        <p>This Project has 6 options to choose from, Print, Add, Update, Search, Delete and Exit. The Database is made of Multiple Songs and is Split is into 3 categories, Song Name, Artist and Genre </p>
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <a href="https://github.com/AbdirahmanDubad19/MUSICDB" class="card__links">Code</a>
+                        </div>
+                        <div>
+                            <a href="" class="card__links">Source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/Projects/Counter.png" class="card__image">
+                    <div class="card__content">
+                        <p>This project was made using HTML, CSS and JavaScript and was completed with the help of some Youtube videos.
+                            This Projects has 3 buttons which can be used to increase, decrease and reset the count.
+                            Depending on what buttons is pressed the colour will go green,red or black </p>
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <a href="https://github.com/AbdirahmanDubad19/Counter" class="card__links">Code</a>
+                        </div>
+                        <div>
+                            <a href="./Progams/Counter/counter.html" class="card__links">Source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/Projects/ColorFlipper.png" class="card__image">
+                    <div class="card__content">
+                        <p>This project was made using HTML, CSS and JavaScript. It was one of the first projects when i first started learning Javascript using the help of some Youtube videos.</p>
+                        <p>By the click of a button the project will show different colour. More colours can be found in the hex sections</p>
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <a href="https://github.com/AbdirahmanDubad19/Color-Flipper" class="card__links">Code</a>
+                        </div>
+                        <div>
+                            <a href="./Progams/ColourFlipper/colourflipper.html" class="card__links">Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="ContactMe" class="ContactMe">
+            <h1>Contacts</h1>
+            <form action="mailto:adubad16@gmail.com" method="post" id="Myform" encytype="text/plain" target="blank">
+                <input type="text" id="name" placeholder="Enter Your Name.."><br><br>
+                <input type="text" id="email" placeholder="example@example.com/co.uk" ><br><br>
+                <input type="submit" value="submit" id="submit">
+            </form><br>
+            <div id="top">
+                <button>Top</button>
+            </div>
+            
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
