@@ -1,0 +1,53 @@
+#main{
+    text-align: center;
+    margin-top: 15rem;
+    color: white;
+    
+}
+#body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rowdies', cursive;
+    background-color: rgb(57, 28, 135);
+}
+#decrease{
+    background-color: white;
+    color: black;
+    border: 2px solid #fe0000;
+    transition-duration: 0.4s;
+    padding: 14px 40px;
+    margin-top: 1rem;
+}
+#reset{
+    background-color: white;
+    color: black;
+    border: 2px solid #0165fa;
+    transition-duration: 0.4s;
+    padding: 14px 40px;
+    margin-top: 1rem; 
+}
+#increase{
+    background-color: white;
+    color: black;
+    border: 2px solid #00ff15;
+    transition-duration: 0.4s;
+    padding: 14px 40px;
+    margin-top: 1rem; 
+}
+#increase:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+#reset:hover{
+    background-color: #0165fa;
+    color: white;
+}
+#decrease:hover{
+    background-color: #fe0000;
+    color: white; 
+}
+#value{
+    font-size: 3rem;
+}
+#main h1{
+    font-size: 3rem;
+}
